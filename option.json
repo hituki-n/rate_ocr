@@ -1,0 +1,46 @@
+{
+    "app_locale": "ja",
+    "end_rate_area": {
+        "x": 1040,
+        "y": 455,
+        "w": 70,
+        "h": 30
+    },
+    "left_rate_area": {
+        "x": 463,
+        "y": 370,
+        "w": 50,
+        "h": 20
+    },
+    "right_rate_area": {
+        "x": 1125,
+        "y": 175,
+        "w": 50,
+        "h": 20
+    },
+    "left_name_area": {
+        "x": 255,
+        "y": 313,
+        "w": 220,
+        "h": 20
+    },
+    "right_name_area": {
+        "x": 795,
+        "y": 308,
+        "w": 220,
+        "h": 20
+    },
+    "lower_rate": 1000,
+    "upper_rate": 4000,
+    "saved_version": "20220101_1",
+    "check_interval": 20,
+    "chart_period": 40,
+    "plot_opponent_rate": "True",
+    "video_source": 0,
+    "user_name": [],
+    "ocr_language": "script/Japanese",
+    "record_file": "game_history.txt",
+    "capture_width": 1280,
+    "capture_height": 720,
+    "capture_frame_rate": 30
+}

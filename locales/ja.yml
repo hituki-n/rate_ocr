@@ -1,0 +1,48 @@
+ja:
+  # option window
+  option:
+    app_ver: アプリバージョン
+    app_locale: 使用言語(language)
+    check_interval: レート確認間隔(ms)
+    num_first_plot: 初期表示時の試合数
+    plot_opponent_rate: 対戦相手のレート表示
+    video_source: ビデオソース
+    crop_area: 各情報の画像認識範囲
+    user_name_candidate: 自分の名前
+    ocr_language: OCR言語設定(名前の画像認識に使用)
+    record_file: 記録用ファイル名
+    save: 保存
+  
+  
+  # in chart
+  chart:
+    wl: "%{win} 勝  %{lose} 敗"
+  
+  # crop area window
+  crop:
+    exploration: |-
+      すべて左からx座標, y座標, 幅, 高さを入力してください。左上座標が(0,0)です。
+      映されている映像から直接マウスによる範囲指定ができます。
+      緑で表示される範囲が現在の設定範囲です。
+      赤で表示される範囲が選択中(ドラッグ中)の範囲です。
+    left_rate: 左のレート
+    left_name: 左の名前
+    right_rate: 右のレート
+    right_name: 右の名前
+    end_rate: 対戦後のレート
+    apply: 適用
+    confirm: 確定
+    tooltip_x: x座標
+    tooltip_y: y座標
+    tooltip_w: 幅
+    tooltip_h: 高さ
+    
+  
+  # video source window
+  video_source:
+    exploration: |-
+      ※映像の切り替わりには時間がかかる場合があります。
+      すぐに切り替わらない場合、３０秒ほどお待ちください。
+    select: 選択
+  
+

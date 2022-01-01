@@ -1,0 +1,1 @@
+timestamp	my_rate	opponent_rate	opponent_name

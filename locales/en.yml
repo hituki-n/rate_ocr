@@ -1,0 +1,49 @@
+en:
+  # option window
+  option:
+    app_ver: APP VERSION
+    app_locale: Language
+    check_interval: Interval(ms) of rate check
+    num_first_plot: "#Plots at initial show"
+    plot_opponent_rate: Plot opponent rate in chart
+    video_source: Video source
+    crop_area: Crop area for image recognition
+    user_name_candidate: Your name
+    ocr_language: OCR language(use in name image recognition)
+    record_file: Record file name
+    save: SAVE
+  
+  
+  # in chart
+  chart:
+    wl: "WIN: %{win}  LOSE: %{lose}"
+  
+  # crop window
+  capture:
+    exploration: |-
+      Each row has inputs; x, y, width, height from left to right.
+      Top-left point is (0, 0).
+      You can draw the area by dragging mouse.
+      The green area is the current setting area. 
+      The red area is the drawing area. 
+    left_rate: left rate
+    left_name: left name
+    right_rate: right rate
+    right_name: right name
+    end_rate: rate after match
+    apply: APPLY
+    confirm: CONFIRM
+    tooltip_x: x
+    tooltip_y: y
+    tooltip_w: width
+    tooltip_h: height
+    
+  
+  # video source window
+  video_source:
+    exploration: |-
+      It may take long time in switching video.
+      You should wait about 30 seconds for switching video.
+    select: SELECT
+  
+
